@@ -24,7 +24,7 @@ async def autoapprove(c, m):
         button = [[
             InlineKeyboardButton('📢 Updates 📢', url='https://t.me/BF_Links')
             ],[
-            InlineKeyboardButton('📽️JOIN MOVIE GROUP📽️', url='https://t.me/MovieGroup_TM')
+            InlineKeyboardButton('💫 Support 💫', url='https://t.me/AlaskaBotSupport')
         ]]
         markup = InlineKeyboardMarkup(button)
         caption = f'Hello {m.from_user.mention()}\nYou Request To Join {m.chat.title} Was Approved.'
@@ -53,7 +53,7 @@ I can approve users in Groups/Channels.Add me to your chat and promote me to adm
             InlineKeyboardButton('📣UPDATES🔔', url='https://t.me/czdbotz')
     ]]
     await m.reply_photo(
-        photo='https://telegra.ph/file/f7738f04ea74e16c9db02.jpg', 
+        photo='https://graph.org/file/0923110bb4fb27df783ef.jpg', 
         caption=text,
         reply_markup=InlineKeyboardMarkup(button),
         quote=True
