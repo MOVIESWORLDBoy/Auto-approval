@@ -22,7 +22,7 @@ async def autoapprove(c, m):
     try:
         await c.approve_chat_join_request(m.chat.id, m.from_user.id)
         button = [[
-            InlineKeyboardButton('🎬JOIN MOVIE CHANNEL🎬', url='https://t.me/at3moviesofficalbot')
+            InlineKeyboardButton('📢 Updates 📢', url='https://t.me/BF_Links')
             ],[
             InlineKeyboardButton('📽️JOIN MOVIE GROUP📽️', url='https://t.me/MovieGroup_TM')
         ]]
@@ -30,7 +30,7 @@ async def autoapprove(c, m):
         caption = f'Hello {m.from_user.mention()}\nYou Request To Join {m.chat.title} Was Approved.'
         await c.send_photo(
             m.from_user.id, 
-            photo='https://telegra.ph/file/f7738f04ea74e16c9db02.jpg', 
+            photo='https://graph.org/file/0923110bb4fb27df783ef.jpg', 
             caption=caption, 
             reply_markup=markup
         )
