@@ -44,8 +44,8 @@ async def autoapprove(c, m):
 
 @app.on_message(filters.command('start') & filters.private & filters.incoming)
 async def start(c, m):
-    text = f'''Hello {m.from_user.mention()} 👋
-Add This Bot To Your Channels To Accept Join Requests Automatically 😊\n\n<b>Share And Support Us 😊</b>.'''
+    text = f'''<b>Hello {m.from_user.mention()} 👋
+Add This Bot To Your Channels To Accept Join Requests Automatically</b> 😊\n\n<b>Share And Support Us 😊</b>.'''
     button = [[
             InlineKeyboardButton('➕ Add Me To Your Group ➕', url='https://t.me/BF_AutoApproveBot?startgroup=true')
             ],[
