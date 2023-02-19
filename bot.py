@@ -30,7 +30,7 @@ async def autoapprove(c, m):
         caption = f'Hello {m.from_user.mention()}\n\n<b>Your Request To Join {m.chat.title} has been Approved</b>.'
         await c.send_photo(
             m.from_user.id, 
-            photo='https://graph.org/file/0923110bb4fb27df783ef.jpg', 
+            photo='https://graph.org/file/d21d0f44e97fb77e3e865.jpg', 
             caption=caption, 
             reply_markup=markup
         )
