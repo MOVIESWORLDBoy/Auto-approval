@@ -22,9 +22,9 @@ async def autoapprove(c, m):
     try:
         await c.approve_chat_join_request(m.chat.id, m.from_user.id)
         button = [[
-            InlineKeyboardButton('📢 Updates 📢', url='https://t.me/BF_Links')
+            InlineKeyboardButton('📢 Updates 📢', url='https://t.me/BF_Bots')
             ],[
-            InlineKeyboardButton('💫 Support 💫', url='https://t.me/AlaskaBotSupport')
+            InlineKeyboardButton('💫 Support 💫', url='https://t.me/BFBotsSupport')
         ]]
         markup = InlineKeyboardMarkup(button)
         caption = f'Hello {m.from_user.mention()}\n\n<b>Your Request To Join {m.chat.title} has been Approved</b>.'
